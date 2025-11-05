@@ -179,7 +179,7 @@ Path: IPv4 → Right-click → New Scope
 ```powershell
 Setting:    |  Value:
 Scope Name	|  Lab-LAN-Scope
-Start IP	  |  192.168.163.50
+Start IP	 |  192.168.163.50
 End IP	    |  192.168.163.200
 Subnet Mask	|  255.255.255.0
 Router	    |  192.168.163.2
