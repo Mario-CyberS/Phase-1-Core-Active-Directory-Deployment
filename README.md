@@ -118,11 +118,13 @@ Pick one outside the DHCP pool, e.g.
 #### ✅ Step 3 — Set Static IP
 1. Open Network & Internet Settings → Ethernet
 2. Edit IPv4 properties:
+```powershell
 IP address: 192.168.163.10
 Subnet mask: 255.255.255.0
 Default gateway: 192.168.163.2
 Preferred DNS: 127.0.0.1
-3. Disable IPv6
+```
+4. Disable IPv6
 #### ✅ Add Localhost DNS Record
 1. Open DNS Manager → lab.local → New Host (A)
 2. Name: localhost
