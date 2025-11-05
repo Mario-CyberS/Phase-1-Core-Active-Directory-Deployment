@@ -118,6 +118,7 @@ Pick one outside the DHCP pool, e.g.
 #### ✅ Step 3 — Set Static IP
 1. Open Network & Internet Settings → Ethernet
 2. Edit IPv4 properties:
+
 ```powershell
 IP address: 192.168.163.10
 Subnet mask: 255.255.255.0
