@@ -153,18 +153,24 @@ Everything should resolve successfully.
 ### 🎯 Install and Configure DHCP
 1. Install DHCP Server (same steps as AD DS, Install it on same server)
 2. Open DHCP Console
+
 ### Authorize DHCP in Active Directory
 1. In Server Manager → Notifications ⚠️
 2. Click Complete DHCP Configuration
+
+
 You're in Server Manager now, your server should already be authorized but check.
 Do this:
 1. Right-click your server name under DHCP
 2. Click DHCP Manager
 3. Inside DHCP Manager:
-Right-click your DHCP server name (WIN-xxxx…)
-Select ✅ Authorize
-4. Wait ~10 seconds
-5. Right-click again → Refresh
+
+
+- Right-click your DHCP server name (WIN-xxxx…)
+- Select ✅ Authorize
+
+5. Wait ~10 seconds
+6. Right-click again → Refresh
 You should see the server icon turn green ✔
 
 #### ✅ Step 1 — Create DHCP Scope
