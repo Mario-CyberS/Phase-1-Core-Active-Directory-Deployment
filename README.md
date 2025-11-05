@@ -167,7 +167,7 @@ You should see the server icon turn green ✔
 #### ✅ Step 1 — Create DHCP Scope
 
 Path: IPv4 → Right-click → New Scope
-
+```powershell
 Setting:    |  Value:
 Scope Name	|  Lab-LAN-Scope
 Start IP	  |  192.168.163.50
@@ -175,7 +175,7 @@ End IP	    |  192.168.163.200
 Subnet Mask	|  255.255.255.0
 Router	    |  192.168.163.2
 Domain Name	|  lab.local
-
+```
 Skip WINS and finish the wizard.
 Activate the scope if not automatically enabled.
 
@@ -208,7 +208,7 @@ Go to AD DS and right click on server
 Inside Active Directory Users & Computers:
 Right-click domain → New → Organizational Unit
 Create OUs for each of these:
-
+```powershell
 OU:                  | Purpose:
 LAB Users            | Regular accounts
 LAB Computers        | Workstations
@@ -216,7 +216,7 @@ LAB Servers          | Future server machines
 LAB Groups           | Security groups
 LAB Service Accounts | Service users
 LAB Admins           | Secured OU
-
+```
 ---
 
 ### 👨‍💻 Author
